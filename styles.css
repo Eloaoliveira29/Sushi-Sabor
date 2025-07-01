@@ -1,0 +1,100 @@
+/* Estilo geral do corpo da página */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff8f0; /* cor suave que lembra papel de arroz */
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Cabeçalho principal */
+h1 {
+  text-align: center;
+  color: #d35400; /* tom de laranja que lembra salmão */
+  font-family: 'Pacifico', cursive; /* fonte com estilo mais fluido */
+  margin-bottom: 20px;
+}
+
+/* Seção de história */
+section.historia {
+  background-color: #fff0e0; /* tom suave de bege */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+/* Título da seção */
+section.historia h2 {
+  color: #e67e22; /* tom de laranja mais escuro */
+  margin-top: 0;
+}
+
+/* Parágrafos da história */
+section.historia p {
+  line-height: 1.6;
+  font-size: 1em;
+  color: #555;
+}
+
+/* Cardápio */
+section.cardapio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Cada card do cardápio */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Título do card */
+.card h3 {
+  margin-top: 0;
+  color: #c0392b; /* tom de vermelho que lembra peixe */
+  font-family: 'Pacifico', cursive;
+}
+
+/* Descrição do prato */
+.card p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Preço do prato */
+.preco {
+  font-weight: bold;
+  color: #27ae60; /* verde que lembra alga */
+  font-size: 1.1em;
+}
+
+/* Botão para pedidos ou contato */
+button {
+  display: block;
+  margin: 30px auto 0 auto;
+  background-color: #e74c3c; /* vermelho vibrante */
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #000000;
+}
